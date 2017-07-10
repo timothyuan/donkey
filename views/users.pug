@@ -1,0 +1,25 @@
+html
+	head
+		title= 'User List'
+		script(type='text/javascript', src='/javascripts/jquery-3.2.1.min.js')
+		script(type='text/javascript', src='/javascripts/jquery.tablesorter.min.js')
+		script(type='text/javascript', src='/javascripts/sort.js')
+			
+	body
+		h1= 'User List'
+		
+	table(id='myTable', class='tablesorter')
+		thead
+			tr
+				th ID
+				th Name
+				th Email
+				th Password
+				
+		tbody
+			for user in userList
+				tr
+					td= user.id
+					td= user.name
+					td= user.email
+					td= user.password

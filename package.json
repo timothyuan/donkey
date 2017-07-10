@@ -1,0 +1,27 @@
+{
+  "name": "donkey",
+  "version": "1.0.0",
+  "description": "simple node app using express",
+  "main": "app.js",
+  "scripts": {
+    "test": "node ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timothyuan/donkey.git"
+  },
+  "keywords": [
+    "donkey"
+  ],
+  "author": "timothy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timothyuan/donkey/issues"
+  },
+  "homepage": "https://github.com/timothyuan/donkey#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "mysql": "^2.13.0",
+    "pug": "^2.0.0-rc.2"
+  }
+}
